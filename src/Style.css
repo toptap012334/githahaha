@@ -1,0 +1,63 @@
+body {
+  background-color: #78fffa;
+}
+
+body {
+  padding: 180px;
+  background-image: url(5f2b03263031164d918d01ec7464fade.gif);
+  background-size: 102%;
+}
+
+table,
+th,tr {
+  border: none;
+  border-radius: 100px;
+  border-spacing: 25px;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+button {
+  background: hsl(340deg 100% 32%);
+  border: none;
+  border-radius: 12px;
+  padding: 0;
+  cursor: pointer;
+}
+button {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: hsl(345deg 100% 47%);
+  color: white;
+  transform: translateY(25px);
+}
+
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.pushable {
+  background: hsl(340deg 100% 32%);
+  border: none;
+  border-radius: 12px;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+.front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: hsl(345deg 100% 47%);
+  color: rgb(255, 255, 255);
+  transform: translateY(-6px);
+}
+
+.pushable:active .front {
+  transform: translateY(-2px);
+}
